@@ -85,4 +85,19 @@
     // es par o no.
 
     let numeros =[45,33,22,14,8,24,3,12,1,44]
+    let contp   =0;
+    function es_par(num){
+
+    
+        if(num % 2 == 0)
+            return true
+        return false
+    }
+    for(let i=0;i<numeros.length;i++){
+        if(es_par(numeros[i]))
+            contp++;
+    }
+
+    console.log(contp)
+
 
