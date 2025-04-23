@@ -84,6 +84,10 @@
     //use una funcion que retone si el numero
     // es par o no.
 
+    //TAREA
+    //modificar para que muestre la cantidad de 
+    //impares
+
     let numeros =[45,33,22,14,8,24,3,12,1,44]
     let contp   =0;
     function es_par(num){
